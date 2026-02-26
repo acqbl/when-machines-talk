@@ -1,0 +1,13 @@
+# Episode 1 — What the Log Is Telling Us
+
+*429,000 rows. Five machines. Two years. Here's how to read them.*
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(lubridate)
+df <- read_rds("data/clean_data.rds")
+```
+
+## Coming soon
+
+This chapter is in progress.

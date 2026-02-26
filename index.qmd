@@ -1,0 +1,15 @@
+# Preface {.unnumbered}
+
+This book documents an end-to-end data analysis of a real packaging production dataset,
+from raw log exploration to anomaly detection and predictive modelling.
+
+**Dataset** : [Packaging Industry Anomaly Detection](https://www.kaggle.com/datasets/orvile/packaging-industry-anomaly-detection-dataset) — Kaggle
+**Stack** : R, tidyverse, Quarto
+**Code** : [github.com/ArnaudCoqueblin/when-machines-talk](https://github.com/ArnaudCoqueblin/when-machines-talk)
+
+---
+
+Each chapter corresponds to a LinkedIn post in the series *"When Machines Talk"*.
+The analysis progresses from data understanding to predictive modelling — each step building on the previous one.
+
+> *"429,000 rows of production logs. Five machines. Two years. What do they actually tell us?"*

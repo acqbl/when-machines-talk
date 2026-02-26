@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "When Machines Talk"
+  subtitle: "Anomaly Detection in Packaging Industry"
+  author: "Arnaud Coqueblin"
+  date: today
+  repo-url: https://github.com/ArnaudCoqueblin/when-machines-talk
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - 01-dataset.qmd
+    - 02-trs.qmd
+    - 03-downtime.qmd
+    - 04-sequences.qmd
+    - 05-anomalies.qmd
+    - 06-prediction.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    code-tools: true
+    toc: true
+    toc-depth: 2

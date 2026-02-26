@@ -1,0 +1,21 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Data — ne pas versionner les fichiers lourds
+data/raw_data.csv
+data/clean_data.rds
+
+# Quarto build artifacts
+/.quarto/
+*_files/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Markdown générés automatiquement (optionnel)
+analysis_data_understanding.html
+analysis_eda_trs.html
