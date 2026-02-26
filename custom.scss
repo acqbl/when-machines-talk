@@ -1,0 +1,104 @@
+/*-- scss:uses --*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Fira+Code:wght@400;500&display=swap');
+
+/*-- scss:defaults --*/
+
+// Fonts
+$font-family-sans-serif: "Source Sans 3", "Segoe UI", sans-serif !default;
+$font-family-monospace:  "Fira Code", "Cascadia Code", monospace !default;
+$font-size-root: 18px !default;
+
+// Brand color — bleu industriel
+$primary: #1d6fa4 !default;
+
+/*-- scss:rules --*/
+
+// Sidebar
+.sidebar-title {
+  color: $primary;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+div.sidebar-item-container .active {
+  font-weight: bold;
+  color: $primary;
+}
+
+.sidebar nav[role=doc-toc] ul > li > a.active,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  font-weight: bold;
+  color: $primary;
+}
+
+// Headings
+h1 { font-size: 1.9rem; font-weight: 700; margin-bottom: 1rem; }
+h2 { font-size: 1.4rem; font-weight: 600; margin-top: 2rem;   margin-bottom: 1rem; }
+h3 { font-size: 1.2rem; font-weight: 500; margin-top: 1.5em; }
+h4 { font-size: 1.1rem; margin-top: 1.5em; }
+
+.quarto-section-identifier {
+  color: #888;
+  font-weight: normal;
+}
+
+// Inline code
+code {
+  color: #c0392b;
+  font-size: 0.9em;
+}
+
+code a:any-link {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+// Code blocks — léger dégradé comme r4ds
+pre.sourceCode {
+  border-left: 3px solid $primary;
+  border-radius: 4px;
+}
+
+// Blockquote — teasing / hook LinkedIn
+blockquote {
+  border-left: 4px solid $primary;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #555;
+}
+
+// Cover image shadow
+img.quarto-cover-image {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/*-- scss:dark --*/
+
+// Mode nuit — fond ardoise foncée, contrastes chauds
+.quarto-dark {
+  --bs-body-bg:         #1a1f2e;
+  --bs-body-color:      #e0e6f0;
+  --bs-link-color:      #5ab3e8;
+  --bs-link-hover-color:#7ecbf5;
+  --bs-code-color:      #e06c75;
+  --bs-border-color:    #2e3650;
+}
+
+.quarto-dark pre.sourceCode {
+  background-color: #12172a;
+  border-left-color: #5ab3e8;
+}
+
+.quarto-dark blockquote {
+  border-left-color: #5ab3e8;
+  color: #aab4c8;
+}
+
+.quarto-dark .sidebar-title {
+  color: #5ab3e8;
+}
+
+.quarto-dark div.sidebar-item-container .active,
+.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.active {
+  color: #5ab3e8;
+}

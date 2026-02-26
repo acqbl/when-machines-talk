@@ -20,8 +20,12 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, custom.scss]
+      dark:  [darkly, custom.scss]
     code-fold: true
     code-tools: true
     toc: true
     toc-depth: 2
+    mainfont: "Source Sans 3"
+    monofont: "Fira Code"
