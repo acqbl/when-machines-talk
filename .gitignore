@@ -16,6 +16,11 @@ data/clean_data.rds
 .DS_Store
 Thumbs.db
 
-# Markdown générés automatiquement (optionnel)
-analysis_data_understanding.html
-analysis_eda_trs.html
+# Fichiers de travail internes (non publiés)
+Analysis.qmd
+analysis_*.md
+analysis_*.html
+linkedin_strategy.md
+github_rstudio_guide.md
+session_state.md
+scripts/
