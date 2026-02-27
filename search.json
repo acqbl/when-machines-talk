@@ -1,0 +1,22 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "When Machines Talk",
+    "section": "",
+    "text": "Preface\nSomewhere in a packaging plant, five machines are humming.\n\n Image courtesy of jcomp, on Freepik\n\nThey fill, seal, label, count…\nTen thousand times a day, six days a week, fifty weeks a year. Quietly…\nNobody pays much attention. Until one stops. Then everyone pays very attention. 🚨\nHere’s the thing: they’ve been talking all along.\nEvery start, every stop, every hiccup, every suspiciously long unplanned pause — all of it logged. Timestamped. Waiting. 429,000 rows of it, across five machines and two years.\nThis series is about finally listening.\nWe’ll go from “what on earth is this column?” all the way to “wait, can we actually predict when this thing is about to break down?” — with R code, real numbers, and the occasional raised eyebrow at what the data reveals.\nNo prior knowledge of data science required. Some tolerance for R code recommended. A vague familiarity with the concept of a machine that occasionally misbehaves: mandatory.\n\nA note on the data: I’d have loved to show you logs from a real plant I’ve worked with. Instead, here’s a dataset from Kaggle that is, frankly, a very decent replacement : Packaging Industry Anomaly Detection. Real enough to be interesting. Anonymised enough that nobody gets fired.\nStack : R, tidyverse, Quarto Code : github.com/ArnaudCoqueblin/when-machines-talk\n\nSix episodes. Five machines. One question: what were they trying to tell us?",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "next.html",
+    "href": "next.html",
+    "title": "What’s Next",
+    "section": "",
+    "text": "This series unfolds in 6 episodes — each one building on the previous.\n\nNext episode dropping soon.\n\nFollow along on LinkedIn to be notified when the next chapter is published.",
+    "crumbs": [
+      "What's Next"
+    ]
+  }
+]
