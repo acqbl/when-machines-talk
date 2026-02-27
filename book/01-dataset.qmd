@@ -2,7 +2,7 @@
 
 *429,000 rows. Five machines. Two years. Here's how to read them.*
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, eval=FALSE}
 library(tidyverse)
 library(lubridate)
 df <- read_rds("data/clean_data.rds")

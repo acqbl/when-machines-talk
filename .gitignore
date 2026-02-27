@@ -5,22 +5,27 @@
 *.Rproj
 
 # Data — ne pas versionner les fichiers lourds
-data/raw_data.csv
-data/clean_data.rds
+data/
 
 # Quarto build artifacts
 /.quarto/
+book/.quarto/
 *_files/
+*.html
+docs/
+
+# Claude local settings
+.claude/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Fichiers de travail internes (non publiés)
+# Fichiers de travail internes (non publiés sur GitHub)
 Analysis.qmd
-analysis_*.md
-analysis_*.html
+analyses/
+sandbox/
+scripts/
+session_state.md
 linkedin_strategy.md
 github_rstudio_guide.md
-session_state.md
-scripts/
