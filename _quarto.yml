@@ -11,12 +11,14 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - 01-dataset.qmd
-    - 02-trs.qmd
-    - 03-downtime.qmd
-    - 04-sequences.qmd
-    - 05-anomalies.qmd
-    - 06-prediction.qmd
+    # Published episodes — add here as each one is released
+    # - 01-dataset.qmd
+    # - 02-trs.qmd
+    # - 03-downtime.qmd
+    # - 04-sequences.qmd
+    # - 05-anomalies.qmd
+    # - 06-prediction.qmd
+    - next.qmd
 
 format:
   html:
@@ -29,3 +31,4 @@ format:
     toc-depth: 2
     mainfont: "Source Sans 3"
     monofont: "Fira Code"
+    titlefont: "Exo 2"
