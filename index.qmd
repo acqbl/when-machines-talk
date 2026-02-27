@@ -1,15 +1,28 @@
 # Preface {.unnumbered}
 
-This book documents an end-to-end data analysis of a real packaging production dataset,
-from raw log exploration to anomaly detection and predictive modelling.
+Somewhere in a packaging plant, five machines are humming.
 
-**Dataset** : [Packaging Industry Anomaly Detection](https://www.kaggle.com/datasets/orvile/packaging-industry-anomaly-detection-dataset) — Kaggle
-**Stack** : R, tidyverse, Quarto
-**Code** : [github.com/ArnaudCoqueblin/when-machines-talk](https://github.com/ArnaudCoqueblin/when-machines-talk)
+They fill, seal, label, count. Ten thousand times a day, six days a week, fifty weeks a year — each one quietly getting on with it. Nobody pays much attention. Until one stops. Then everyone pays *very* attention.
+
+Here's the thing: they've been talking all along. All five of them.
+
+Every start, every stop, every hiccup, every suspiciously long unplanned pause — all of it logged. Timestamped. Waiting. **429,000 rows** of it, across five machines and two years.
+
+This series is about finally listening.
+
+We'll go from *"what on earth is this column?"* all the way to *"wait, can we actually predict when this thing is about to break down?"* — with R code, real numbers, and the occasional raised eyebrow at what the data reveals.
+
+No prior knowledge of data science required. Some tolerance for R code recommended. A vague familiarity with the concept of a machine that occasionally misbehaves: mandatory.
 
 ---
 
-Each chapter corresponds to a LinkedIn post in the series *"When Machines Talk"*.
-The analysis progresses from data understanding to predictive modelling — each step building on the previous one.
+*A note on the data:* I'd love to show you logs from a real plant I've worked with. Legal won't let me. So instead, here's a dataset from Kaggle that is, frankly, a very decent stand-in: [Packaging Industry Anomaly Detection](https://www.kaggle.com/datasets/orvile/packaging-industry-anomaly-detection-dataset). Real enough to be interesting. Anonymised enough that nobody gets fired.
 
-> *"429,000 rows of production logs. Five machines. Two years. What do they actually tell us?"*
+**Stack** : R, tidyverse, Quarto
+**Code** : [github.com/ArnaudCoqueblin/when-machines-talk](https://github.com/ArnaudCoqueblin/when-machines-talk)
+
+::: {style="text-align: right;"}
+![](./images/TaeApril22.jpg) <a href="https://fr.freepik.com/vecteurs-libre/ordinateur-usage-humain-pour-controler-bras-du-robot-travaillant-convoi-convoi-dans-industrie-usines-intelligentes-4_14244751.htm" style="font-size: 0.8em; display: block;">Image courtesy of jcomp, on Freepik</a>
+:::
+
+> *Six episodes. Five machines. One question: what were they trying to tell us?*
